@@ -1,1 +1,1 @@
-# concurrenty-in-go
+# concurrency-in-go
