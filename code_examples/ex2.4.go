@@ -33,4 +33,3 @@ func main() {
 	after := memConsumed()
 	fmt.Printf("%.3fkb\n", float64(after-before)/numGoroutines/1000)
 }
-
