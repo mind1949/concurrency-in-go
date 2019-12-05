@@ -17,6 +17,9 @@ func main() {
 	}()
 
 	workCounter := 0
+	// 标签一般都是配合for/switch/select语句使用,
+	// 此时若是用break或者continue/goto, 则是指向
+	// 绑定的for/switch/select语句
 loop:
 	for {
 		select {
