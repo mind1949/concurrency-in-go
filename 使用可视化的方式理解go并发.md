@@ -54,6 +54,8 @@
 ### 可视化方式描述go并发的思路
 * 从上往下表示时间的递增;
 * 用一条垂直线表示一个goroutine;
-* 用两个goroutine顶层相连的虚线表示两个goroutine之间的fork关系;
+* 用两个goroutine定点相连的虚线表示两个goroutine之间的fork关系;
+* 用两个goroutine尾端相连表示goroutine的合并(join);
 * 用两个goroutine中间相连的有向线段表示两个goroutine中通过channel完成的数据沟通;
 * 用红色表示阻塞, 用绿色表示正在占用cpu;
+
