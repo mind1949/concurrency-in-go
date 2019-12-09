@@ -39,7 +39,7 @@
 ```
 遇到一些理解上的困难感. 虽然我能够用文字描述大致理解整个or函数的实现思路, 但是总觉得自己思考的不够流畅, 
 感觉不够连贯, 无法清除的将实现的思路在脑海里呈现出来.
-但是当我无意间看到这篇文章, 学习了如何通过可视化的方式理解go的并发, 并尝试用文章中给出的可视化方式描述
+但是当我无意间看到这篇文章[visualizing concurrency in go](https://divan.dev/posts/go_concurrency_visualize/), 学习了如何通过可视化的方式理解go的并发, 并尝试用文章中给出的可视化方式描述
 代码中的思路后, 哪些不连贯, 不流畅的困难感消失了.
 下图是我手绘的大致的可视化表示方式:
 ![](https://gitlab.com/mind1949.roadmap/technique.it/backend/golang/uploads/a4131adef0d5f1807eebf00184ed1729/image.png)
