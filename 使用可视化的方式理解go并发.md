@@ -55,5 +55,5 @@
 * 从上往下表示时间的递增;
 * 用一条垂直线表示一个goroutine;
 * 用两个goroutine顶层相连的虚线表示两个goroutine之间的fork关系;
-* 用两个goroutine中间相连的邮箱线段表示两个goroutine中通过channel完成的数据沟通;
-* 用红色表示阻塞, 用绿色表示占据cpu;
+* 用两个goroutine中间相连的有向线段表示两个goroutine中通过channel完成的数据沟通;
+* 用红色表示阻塞, 用绿色表示正在占用cpu;
