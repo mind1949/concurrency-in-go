@@ -1,3 +1,5 @@
+// page: 110
+// some handy generators
 package main
 
 import (
