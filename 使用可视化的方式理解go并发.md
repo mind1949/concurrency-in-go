@@ -1,7 +1,7 @@
 # 19年12月09号用可视化的方式理解go并发
 
 ## 背景
-昨天我在尝试理解or-channel部分的or函数时遇到了如下问题, 当我尝试理解如下代码时:
+昨天我在尝试理解or-channel部分的or函数时:
 ```go
 	var or func(
 		channels ...<-chan interface{},
